@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  /*デフォルトの文字色、font-familyを予め当てておく*/
+  color:#4F260B ;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a {
+  /*下線を消す*/
+  text-decoration: none;
+  /*色を消す*/
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.5s;
+}
+ul {
+     /*左の「・」を消す*/
+    list-style: none;
+}
+ 
+ 
+
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+
+/*ヘッダー*/
+
+
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7% 0 2.8%;
+}
+
+.header_logo{
+    width: 226px;
+}
+.pc_nav ul{
+    display: flex;
+}
+.pc_nav ul li {
+    width: 105px;
+    margin-left: 55px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    text-align: center;
+}
+.header_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* ホーム*/
+  body{
+    background-color: #E8D9BF;
+  }
+
+  .have p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .home_content{
+    text-align: center;
+    margin-top: 110px;
+  }
+ 
+
+   h2{
+    font-size: 82px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .home_content p {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 63px;
+
+  }
+  .about_us img{
+    width: 272px;
+    height: 77px;
+    margin-top: 170px;
+    margin-left: 720px;
+  }
+  h3{
+    font-size: 60px;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 720px;
+  }
+  .about_us p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 720px;
+
+  }
+  
+  
+  /*メニュー*/
+
+  
+  
+  .menu img {
+    max-width: 200px;
+    height: 77px;
+    margin-top: 140px;
+    text-align: center;
+    
+  }
+
+  h4 {
+    color: #D30202;
+    font-size: 38px;
+    text-align: left;
+    margin-top: -10px;
+  }
+
+  .menu_list p {
+    font-size: 17px;
+    margin-top: 5px;
+    text-align: left;
+    letter-spacing: 5px;
+  }
+ 
+  .menu_list img {
+      width: 300px;
+      height: 200px;
+      max-width: 0 auto;
+  }
+ 
+.menu_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+} 
+
+.menu_list div {
+  width: 300px;
+  background-color: #E8D9BF;
+  padding-left: 50px;
+}
+
+/*ギャラリー*/
+
+.galley img {
+  width: 2oopx;
+  height: 77px;
+}
+
+.galley_list img {
+  width: 380px;
+  height: 300px;
+  
+}
+
+.galley_list {
+  display: flex;
+  flex: row;
+  justify-content: center;
+}
+
+/*イベント*/
+
+.event img {
+  width: 200px;
+  height: 77px;
+}
+
+.event_list ul{
+  font-size: 23px;
+  text-align: left;
+}
+
+.event_list div{
+ display: flex;
+ flex: column wrap;
+ justify-content: center;
+ padding-left: 20px;
+}
+
+.event_list ul {
+  width: 1000px;
+  height: 200px;
+  background: #fff;
+  margin: 0 auto;
+  border: solid 3px #4F260B;
+}
+/*アクセス*/
+
+.access img{
+ width: 200px;
+ height: 77px;
+margin-top: 75px;
+}
+
+
+
